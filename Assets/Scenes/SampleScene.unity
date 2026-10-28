@@ -18029,8 +18029,9 @@ GameObject:
   - component: {fileID: 2005578687}
   - component: {fileID: 2005578686}
   - component: {fileID: 2005578690}
+  - component: {fileID: 2005578691}
   m_Layer: 0
-  m_Name: male_hero_0
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18074,7 +18075,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
-    oldSize: {x: 1.3333334, y: 1.5416666}
+    oldSize: {x: 1.1666666, y: 1.8333334}
     newSize: {x: 0.32, y: 0.37}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -18205,6 +18206,28 @@ MonoBehaviour:
     m_Bits: 8
   groundCheckRadius: 0.2
   isGrounded: 0
+--- !u!95 &2005578691
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005578685}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1ed9e87ad6be96b4db9f05bb5b4857e7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

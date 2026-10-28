@@ -1,6 +1,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(SpriteRenderer))]
+[RequireComponent(typeof(Animator))]
 public class PlayerController : MonoBehaviour
     
 {
@@ -13,6 +14,7 @@ public class PlayerController : MonoBehaviour
     public LayerMask groundlayer;
     public float groundCheckRadius = 0.2f;
     public bool isGrounded;
+    public Animator anim;
 
     #endregion
     #region Comp References
@@ -25,6 +27,7 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
 
         rb.sleepMode = RigidbodySleepMode2D.NeverSleep;
 
@@ -47,6 +50,9 @@ public class PlayerController : MonoBehaviour
             isGrounded = false;
         }
         Spriteflip(moveX);
+
+        anim.SetBool("isGrounded", isGrounded);
+        anim.SetFloat("moveX", Mathf.Abs(moveX));
     }
     void Spriteflip(float moveX) => sr.flipX = (moveX < 0f);
 
