@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
     public float groundCheckRadius = 0.2f;
     public bool isGrounded;
     public Animator anim;
-
+    private float horizontalInput = 5f;
     #endregion
     #region Comp References
     private Rigidbody2D rb;
@@ -49,7 +49,17 @@ public class PlayerController : MonoBehaviour
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             isGrounded = false;
         }
+        if (Input.GetMouseButtonDown(0))
+        {
+            anim.SetTrigger("isAtk");
+        }
         Spriteflip(moveX);
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            float direction = sr.flipX ? -1f : 1f;
+            transform.position += new Vector3(direction * 5f, 0f, 0f);
+
+        }
 
         anim.SetBool("isGrounded", isGrounded);
         anim.SetFloat("moveX", Mathf.Abs(moveX));
