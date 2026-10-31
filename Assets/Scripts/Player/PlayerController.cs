@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
 {
     #region Tuneable Parameters
     public float moveSpeed = 5f;
-    public float jumpForce = 5f;
+    public float jumpForce = 10f;
     #endregion
     #region Comp variables
     public Transform GroundCheckPos;
@@ -56,8 +56,10 @@ public class PlayerController : MonoBehaviour
         Spriteflip(moveX);
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
+            anim.SetTrigger("isDash");
             float direction = sr.flipX ? -1f : 1f;
             transform.position += new Vector3(direction * 5f, 0f, 0f);
+            
 
         }
 
