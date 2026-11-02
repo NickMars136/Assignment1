@@ -27852,6 +27852,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   moveSpeed: 5
   jumpForce: 5
+  dashSpeed: 20
+  dashDuration: 0.2
   GroundCheckPos: {fileID: 289398667}
   groundlayer:
     serializedVersion: 2

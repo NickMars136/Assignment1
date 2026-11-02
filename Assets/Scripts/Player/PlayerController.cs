@@ -8,6 +8,9 @@ public class PlayerController : MonoBehaviour
     #region Tuneable Parameters
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
+    public float dashSpeed = 12f;
+    public float dashDuration = 0.2f;
+    private bool isDashing;
     #endregion
     #region Comp variables
     public Transform GroundCheckPos;
@@ -41,7 +44,11 @@ public class PlayerController : MonoBehaviour
             isGrounded = Physics2D.OverlapCircle(GroundCheckPos.position, groundCheckRadius, groundlayer);
          }
         float moveX = Input.GetAxisRaw("Horizontal");
-        rb.linearVelocityX = moveX * moveSpeed;
+
+        if (!isDashing)
+        {
+            rb.linearVelocityX = moveX * moveSpeed;
+        }
 
         bool jumpPressed = Input.GetButtonDown("Jump");
         if (jumpPressed && isGrounded)
@@ -54,17 +61,25 @@ public class PlayerController : MonoBehaviour
             anim.SetTrigger("isAtk");
         }
         Spriteflip(moveX);
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetKeyDown(KeyCode.LeftShift) && !isDashing)
         {
-            anim.SetTrigger("isDash");
-            float direction = sr.flipX ? -1f : 1f;
-            transform.position += new Vector3(direction * 5f, 0f, 0f);
-            
-
+            StartCoroutine(Dash());
         }
-
         anim.SetBool("isGrounded", isGrounded);
         anim.SetFloat("moveX", Mathf.Abs(moveX));
+    }
+    private System.Collections.IEnumerator Dash()
+    {
+        isDashing = true;
+        anim.SetTrigger("isDash");
+
+        float direction = sr.flipX ? -1f : 1f;
+
+        rb.linearVelocity = new Vector2(direction * dashSpeed, 0f);
+
+        yield return new WaitForSeconds(dashDuration);
+
+        isDashing = false;
     }
     void Spriteflip(float moveX) => sr.flipX = (moveX < 0f);
 
