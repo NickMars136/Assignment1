@@ -11,6 +11,31 @@ public class PlayerController : MonoBehaviour
     public float dashSpeed = 12f;
     public float dashDuration = 0.2f;
     private bool isDashing;
+    [SerializeField] private int maxLives = 4;
+    private int lives = 4;
+
+    public void setLives(int lifeValue)
+    {
+        if (lifeValue > maxLives)
+        { 
+            lives = maxLives; 
+        }
+        else if (lifeValue <= 0)
+        {
+            lives = 0;
+        }
+        else if (lives < lifeValue)
+        {
+            lives = lifeValue;
+        }
+
+        Debug.Log($"Lives: {lives}");
+
+    }
+    public int GetLives()
+    {
+        return lives;
+    }
     #endregion
     #region Comp variables
     public Transform GroundCheckPos;
@@ -24,6 +49,9 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private SpriteRenderer sr;
     #endregion
+    private float currentPowerupDuration = 0;
+    private float intialJumpForce;
+    private Coroutine JumpForceCoroutine = null;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
