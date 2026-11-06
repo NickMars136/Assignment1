@@ -1,9 +1,10 @@
+using System.Collections;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(SpriteRenderer))]
 [RequireComponent(typeof(Animator))]
 public class PlayerController : MonoBehaviour
-    
+
 {
     #region Tuneable Parameters
     public float moveSpeed = 5f;
@@ -17,8 +18,8 @@ public class PlayerController : MonoBehaviour
     public void setLives(int lifeValue)
     {
         if (lifeValue > maxLives)
-        { 
-            lives = maxLives; 
+        {
+            lives = maxLives;
         }
         else if (lifeValue <= 0)
         {
@@ -50,7 +51,8 @@ public class PlayerController : MonoBehaviour
     private SpriteRenderer sr;
     #endregion
     private float currentPowerupDuration = 0;
-    private float intialJumpForce;
+    public float initialPowerupDuration = 10;
+    private float intialJumpForce = 10f;
     private Coroutine JumpForceCoroutine = null;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -68,9 +70,9 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         if (rb.linearVelocityY <= 0f)
-         { 
+        {
             isGrounded = Physics2D.OverlapCircle(GroundCheckPos.position, groundCheckRadius, groundlayer);
-         }
+        }
         float moveX = Input.GetAxisRaw("Horizontal");
 
         if (!isDashing)
@@ -111,4 +113,29 @@ public class PlayerController : MonoBehaviour
     }
     void Spriteflip(float moveX) => sr.flipX = (moveX < 0f);
 
+    public void JumpForceChange()
+    {
+        if (JumpForceCoroutine != null)
+        {
+            StopCoroutine(JumpForceCoroutine);
+            JumpForceCoroutine = null;
+            jumpForce = intialJumpForce;
+        }
+        JumpForceCoroutine = StartCoroutine(JumpForceChangeCoroutine());
+    }
+    IEnumerator JumpForceChangeCoroutine()
+    {
+        currentPowerupDuration = initialPowerupDuration + currentPowerupDuration;
+        jumpForce = jumpForce * 1.5f;
+
+        while (currentPowerupDuration > 0)
+        {
+            currentPowerupDuration -= Time.deltaTime;
+            Debug.Log($"Current Powerup Duration: {currentPowerupDuration}");
+            yield return null;
+        }
+        jumpForce = intialJumpForce;
+        JumpForceCoroutine = null;
+        currentPowerupDuration = 0;
+    }
 }

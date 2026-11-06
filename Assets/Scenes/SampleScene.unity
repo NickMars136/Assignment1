@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 186939125}
   - component: {fileID: 186939124}
   - component: {fileID: 186939126}
+  - component: {fileID: 186939127}
   m_Layer: 0
   m_Name: LegendShard
   m_TagString: Untagged
@@ -241,7 +242,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -257,6 +258,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 17.375, y: 17.375}
   m_EdgeRadius: 0
+--- !u!114 &186939127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186939123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b65a77cc0b47fe04bb0ee768409dcaff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SimplePickup
+  type: 1
 --- !u!1 &289398666
 GameObject:
   m_ObjectHideFlags: 0
@@ -27818,6 +27832,7 @@ GameObject:
   - component: {fileID: 2005578688}
   - component: {fileID: 2005578687}
   - component: {fileID: 2005578686}
+  - component: {fileID: 2005578692}
   - component: {fileID: 2005578690}
   - component: {fileID: 2005578691}
   m_Layer: 0
@@ -27834,7 +27849,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2005578685}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
@@ -27992,6 +28007,7 @@ MonoBehaviour:
   jumpForce: 5
   dashSpeed: 20
   dashDuration: 0.2
+  maxLives: 4
   GroundCheckPos: {fileID: 289398667}
   groundlayer:
     serializedVersion: 2
@@ -27999,6 +28015,7 @@ MonoBehaviour:
   groundCheckRadius: 0.2
   isGrounded: 0
   anim: {fileID: 0}
+  initialPowerupDuration: 10
 --- !u!95 &2005578691
 Animator:
   serializedVersion: 7
@@ -28021,6 +28038,43 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!70 &2005578692
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005578685}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.25, y: 0.7708333}
+  m_Size: {x: 0.5, y: 1.5416666}
+  m_Direction: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

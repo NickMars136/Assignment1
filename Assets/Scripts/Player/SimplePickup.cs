@@ -25,7 +25,7 @@ public class SimplePickup : MonoBehaviour
 
 
                 case PickupType.JumpBoost:
-                   // controller.JumpForceChange();
+                    controller.JumpForceChange();
                     break;
             }
 
