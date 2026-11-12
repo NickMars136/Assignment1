@@ -1,0 +1,1367 @@
+fileFormatVersion: 2
+guid: ac8dd964586f3044f93f50f133d9b085
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2781676127277819213
+    second: Pickup_HealthShard_0
+  - first:
+      213: 2391678283680439754
+    second: Pickup_HealthShard_1
+  - first:
+      213: 6113368549962617147
+    second: Pickup_HealthShard_2
+  - first:
+      213: -6786382044717772269
+    second: Pickup_HealthShard_3
+  - first:
+      213: 2050136050528018343
+    second: Pickup_HealthShard_4
+  - first:
+      213: 7190024880421878433
+    second: Pickup_HealthShard_5
+  - first:
+      213: -4945725510524760651
+    second: Pickup_HealthShard_6
+  - first:
+      213: 7163794372254791511
+    second: Pickup_HealthShard_7
+  - first:
+      213: 6500672035523720212
+    second: Pickup_HealthShard_8
+  - first:
+      213: -8530742454285803051
+    second: Pickup_HealthShard_9
+  - first:
+      213: 3677443844036633844
+    second: Pickup_HealthShard_10
+  - first:
+      213: 3576884362516281940
+    second: Pickup_HealthShard_11
+  - first:
+      213: -8215472771674609964
+    second: Pickup_HealthShard_12
+  - first:
+      213: 7710753727619742705
+    second: Pickup_HealthShard_13
+  - first:
+      213: 3912472610303191423
+    second: Pickup_HealthShard_14
+  - first:
+      213: 1405032783403080044
+    second: Pickup_HealthShard_15
+  - first:
+      213: 7640708623409950366
+    second: Pickup_HealthShard_16
+  - first:
+      213: -6544341968725755478
+    second: Pickup_HealthShard_17
+  - first:
+      213: 7449533760022870620
+    second: Pickup_HealthShard_18
+  - first:
+      213: 1176515178953925891
+    second: Pickup_HealthShard_19
+  - first:
+      213: 5434806818233088825
+    second: Pickup_HealthShard_20
+  - first:
+      213: 6877631186360388812
+    second: Pickup_HealthShard_21
+  - first:
+      213: -1165082164056565177
+    second: Pickup_HealthShard_22
+  - first:
+      213: -8480120938645698050
+    second: Pickup_HealthShard_23
+  - first:
+      213: -1317862565304264914
+    second: Pickup_HealthShard_24
+  - first:
+      213: -8235375831701432266
+    second: Pickup_HealthShard_25
+  - first:
+      213: 2412216501638396765
+    second: Pickup_HealthShard_26
+  - first:
+      213: 4952059290746417871
+    second: Pickup_HealthShard_27
+  - first:
+      213: 4138504469177299429
+    second: Pickup_HealthShard_28
+  - first:
+      213: 9062805442390652020
+    second: Pickup_HealthShard_29
+  - first:
+      213: 862324248942699839
+    second: Pickup_HealthShard_30
+  - first:
+      213: 1293242084007943263
+    second: Pickup_HealthShard_31
+  - first:
+      213: -1567181852907005860
+    second: Pickup_HealthShard_32
+  - first:
+      213: 667405254388614856
+    second: Pickup_HealthShard_33
+  - first:
+      213: -1358728075255886719
+    second: Pickup_HealthShard_34
+  - first:
+      213: 8800227562546807380
+    second: Pickup_HealthShard_35
+  - first:
+      213: -6119348880344654100
+    second: Pickup_HealthShard_36
+  - first:
+      213: -7577779035121705630
+    second: Pickup_HealthShard_37
+  - first:
+      213: -413799519194807228
+    second: Pickup_HealthShard_38
+  - first:
+      213: 9214994121765496125
+    second: Pickup_HealthShard_39
+  - first:
+      213: -6377868022337387433
+    second: Pickup_HealthShard_40
+  - first:
+      213: -5172728128430149501
+    second: Pickup_HealthShard_41
+  - first:
+      213: -475668170745915408
+    second: Pickup_HealthShard_42
+  - first:
+      213: 2506310434925989770
+    second: Pickup_HealthShard_43
+  - first:
+      213: -6497232409627926748
+    second: Pickup_HealthShard_44
+  - first:
+      213: 1178151853055684051
+    second: Pickup_HealthShard_45
+  - first:
+      213: 2984107435854240740
+    second: Pickup_HealthShard_46
+  - first:
+      213: 3992644039785945869
+    second: Pickup_HealthShard_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pickup_HealthShard_0
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 429
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3badb69dc408569d0800000000000000
+      internalID: -2781676127277819213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_1
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 445
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acdd9c33ab2f03120800000000000000
+      internalID: 2391678283680439754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_2
+      rect:
+        serializedVersion: 2
+        x: 2365
+        y: 429
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3111916e4c07d450800000000000000
+      internalID: 6113368549962617147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_3
+      rect:
+        serializedVersion: 2
+        x: 2893
+        y: 445
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31212827c7de1d1a0800000000000000
+      internalID: -6786382044717772269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_4
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 413
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7afd1f830eb837c10800000000000000
+      internalID: 2050136050528018343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_5
+      rect:
+        serializedVersion: 2
+        x: 3901
+        y: 413
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aa34cbc88918c360800000000000000
+      internalID: 7190024880421878433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_6
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 349
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd859c0ad04d5bb0800000000000000
+      internalID: -4945725510524760651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_7
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 109
+        width: 278
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7577032b609ea6360800000000000000
+      internalID: 7163794372254791511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_8
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 109
+        width: 246
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414f4b636c6073a50800000000000000
+      internalID: 6500672035523720212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_9
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 333
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d163f58fe6bc9980800000000000000
+      internalID: -8530742454285803051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_10
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 93
+        width: 246
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4204531b7e80330800000000000000
+      internalID: 3677443844036633844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_11
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 349
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45abe666065a3a130800000000000000
+      internalID: 3576884362516281940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_12
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 349
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d6e076aa07ccfd80800000000000000
+      internalID: -8215472771674609964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_13
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 109
+        width: 246
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb3b4579a9120b60800000000000000
+      internalID: 7710753727619742705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_14
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 349
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7921922c15eb4630800000000000000
+      internalID: 3912472610303191423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_15
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 109
+        width: 278
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c69d4805fddaf7310800000000000000
+      internalID: 1405032783403080044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_16
+      rect:
+        serializedVersion: 2
+        x: 2701
+        y: 109
+        width: 246
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e2d92c200490a60800000000000000
+      internalID: 7640708623409950366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_17
+      rect:
+        serializedVersion: 2
+        x: 2957
+        y: 333
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9bb6127a3dd25a0800000000000000
+      internalID: -6544341968725755478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_18
+      rect:
+        serializedVersion: 2
+        x: 3213
+        y: 93
+        width: 246
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a71744c7f026760800000000000000
+      internalID: 7449533760022870620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_19
+      rect:
+        serializedVersion: 2
+        x: 3485
+        y: 349
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30567626252d35010800000000000000
+      internalID: 1176515178953925891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_20
+      rect:
+        serializedVersion: 2
+        x: 3709
+        y: 349
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b77af91005c6b40800000000000000
+      internalID: 5434806818233088825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_21
+      rect:
+        serializedVersion: 2
+        x: 3725
+        y: 109
+        width: 246
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cccc82fef11427f50800000000000000
+      internalID: 6877631186360388812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_22
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 237
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ad345d1fbc4dfe0800000000000000
+      internalID: -1165082164056565177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_23
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 221
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef9cba79fee805a80800000000000000
+      internalID: -8480120938645698050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_24
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 237
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e27114caaf206bde0800000000000000
+      internalID: -1317862565304264914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_25
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 221
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638599f505116bd80800000000000000
+      internalID: -8235375831701432266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_26
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 237
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5bfd75b02ae97120800000000000000
+      internalID: 2412216501638396765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_27
+      rect:
+        serializedVersion: 2
+        x: 2653
+        y: 237
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc2fc9310bf39b440800000000000000
+      internalID: 4952059290746417871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_28
+      rect:
+        serializedVersion: 2
+        x: 2973
+        y: 221
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1fda253ebee6930800000000000000
+      internalID: 4138504469177299429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_29
+      rect:
+        serializedVersion: 2
+        x: 3149
+        y: 237
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474fb26788d85cd70800000000000000
+      internalID: 9062805442390652020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_30
+      rect:
+        serializedVersion: 2
+        x: 3501
+        y: 221
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f356f6be55797fb00800000000000000
+      internalID: 862324248942699839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_31
+      rect:
+        serializedVersion: 2
+        x: 3645
+        y: 237
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c11e1d2d482f110800000000000000
+      internalID: 1293242084007943263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_32
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 205
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c581a077860404ae0800000000000000
+      internalID: -1567181852907005860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_33
+      rect:
+        serializedVersion: 2
+        x: 4029
+        y: 205
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c60015fa89134900800000000000000
+      internalID: 667405254388614856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_34
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 93
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18cc500b304d42de0800000000000000
+      internalID: -1358728075255886719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_35
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 109
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4524430b750b02a70800000000000000
+      internalID: 8800227562546807380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_36
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 93
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee5f527d94b31ba0800000000000000
+      internalID: -6119348880344654100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_37
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 109
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d1b29cd1256d690800000000000000
+      internalID: -7577779035121705630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_38
+      rect:
+        serializedVersion: 2
+        x: 2445
+        y: 93
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4448a2a9783e14af0800000000000000
+      internalID: -413799519194807228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_39
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 109
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d352523a45c32ef70800000000000000
+      internalID: 9214994121765496125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_40
+      rect:
+        serializedVersion: 2
+        x: 3181
+        y: 93
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754c14833d24d77a0800000000000000
+      internalID: -6377868022337387433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_41
+      rect:
+        serializedVersion: 2
+        x: 3965
+        y: 109
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380ff396c27c638b0800000000000000
+      internalID: -5172728128430149501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_42
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 45
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7dab3a1561669f0800000000000000
+      internalID: -475668170745915408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_43
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 61
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f4e92cf0438c220800000000000000
+      internalID: 2506310434925989770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_44
+      rect:
+        serializedVersion: 2
+        x: 2349
+        y: 45
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42fd8f81c8135d5a0800000000000000
+      internalID: -6497232409627926748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_45
+      rect:
+        serializedVersion: 2
+        x: 3885
+        y: 61
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd2ad44ed2a95010800000000000000
+      internalID: 1178151853055684051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_46
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 29
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb91b507eda96920800000000000000
+      internalID: 2984107435854240740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pickup_HealthShard_47
+      rect:
+        serializedVersion: 2
+        x: 2861
+        y: 29
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b950aa998b86730800000000000000
+      internalID: 3992644039785945869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bb8e798ec62ad0d4aaacffdecf66ed5e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Pickup_HealthShard_0: -2781676127277819213
+      Pickup_HealthShard_1: 2391678283680439754
+      Pickup_HealthShard_10: 3677443844036633844
+      Pickup_HealthShard_11: 3576884362516281940
+      Pickup_HealthShard_12: -8215472771674609964
+      Pickup_HealthShard_13: 7710753727619742705
+      Pickup_HealthShard_14: 3912472610303191423
+      Pickup_HealthShard_15: 1405032783403080044
+      Pickup_HealthShard_16: 7640708623409950366
+      Pickup_HealthShard_17: -6544341968725755478
+      Pickup_HealthShard_18: 7449533760022870620
+      Pickup_HealthShard_19: 1176515178953925891
+      Pickup_HealthShard_2: 6113368549962617147
+      Pickup_HealthShard_20: 5434806818233088825
+      Pickup_HealthShard_21: 6877631186360388812
+      Pickup_HealthShard_22: -1165082164056565177
+      Pickup_HealthShard_23: -8480120938645698050
+      Pickup_HealthShard_24: -1317862565304264914
+      Pickup_HealthShard_25: -8235375831701432266
+      Pickup_HealthShard_26: 2412216501638396765
+      Pickup_HealthShard_27: 4952059290746417871
+      Pickup_HealthShard_28: 4138504469177299429
+      Pickup_HealthShard_29: 9062805442390652020
+      Pickup_HealthShard_3: -6786382044717772269
+      Pickup_HealthShard_30: 862324248942699839
+      Pickup_HealthShard_31: 1293242084007943263
+      Pickup_HealthShard_32: -1567181852907005860
+      Pickup_HealthShard_33: 667405254388614856
+      Pickup_HealthShard_34: -1358728075255886719
+      Pickup_HealthShard_35: 8800227562546807380
+      Pickup_HealthShard_36: -6119348880344654100
+      Pickup_HealthShard_37: -7577779035121705630
+      Pickup_HealthShard_38: -413799519194807228
+      Pickup_HealthShard_39: 9214994121765496125
+      Pickup_HealthShard_4: 2050136050528018343
+      Pickup_HealthShard_40: -6377868022337387433
+      Pickup_HealthShard_41: -5172728128430149501
+      Pickup_HealthShard_42: -475668170745915408
+      Pickup_HealthShard_43: 2506310434925989770
+      Pickup_HealthShard_44: -6497232409627926748
+      Pickup_HealthShard_45: 1178151853055684051
+      Pickup_HealthShard_46: 2984107435854240740
+      Pickup_HealthShard_47: 3992644039785945869
+      Pickup_HealthShard_5: 7190024880421878433
+      Pickup_HealthShard_6: -4945725510524760651
+      Pickup_HealthShard_7: 7163794372254791511
+      Pickup_HealthShard_8: 6500672035523720212
+      Pickup_HealthShard_9: -8530742454285803051
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
