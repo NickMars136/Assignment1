@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
     public float dashDuration = 0.2f;
     private bool isDashing;
     [SerializeField] private int maxLives = 4;
-    private int lives = 4;
+    private int lives = 3;
 
     public void setLives(int lifeValue)
     {
