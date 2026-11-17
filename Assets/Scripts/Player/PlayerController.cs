@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
 {
     #region Tuneable Parameters
     public float moveSpeed = 5f;
-    public float jumpForce = 10f;
+    private float jumpForce = 7.5f;
     public float dashSpeed = 12f;
     public float dashDuration = 0.2f;
     private bool isDashing;
@@ -52,7 +52,7 @@ public class PlayerController : MonoBehaviour
     #endregion
     private float currentPowerupDuration = 0;
     public float initialPowerupDuration = 10;
-    private float intialJumpForce = 10f;
+    private float intialJumpForce = 7.5f;
     private Coroutine JumpForceCoroutine = null;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -126,7 +126,7 @@ public class PlayerController : MonoBehaviour
     IEnumerator JumpForceChangeCoroutine()
     {
         currentPowerupDuration = initialPowerupDuration + currentPowerupDuration;
-        jumpForce = jumpForce * 1.5f;
+        jumpForce = intialJumpForce * 1.5f;
 
         while (currentPowerupDuration > 0)
         {
@@ -137,5 +137,6 @@ public class PlayerController : MonoBehaviour
         jumpForce = intialJumpForce;
         JumpForceCoroutine = null;
         currentPowerupDuration = 0;
+        Debug.Log($"Jump Force: {jumpForce} | Baseline: {intialJumpForce}");
     }
 }
