@@ -16,9 +16,9 @@ public class BushMonster : BaseEnemy
     void Update()
     {
         AnimatorStateInfo stateInfo = anim.GetCurrentAnimatorStateInfo(0);
-        if (stateInfo.IsName("Walk"))
+        if (stateInfo.IsName("Bush"))
         {
-            rb.linearVelocityX = sr.flipX ? -xVel : xVel;
+            rb.linearVelocityX = sr.flipX ? xVel : -xVel;
         }
     }
     public override void TakeDamage(int damage, DamageType damageType = DamageType.defualt)
@@ -33,14 +33,13 @@ public class BushMonster : BaseEnemy
             anim.SetTrigger("Hurt");
             Destroy(transform.parent.gameObject, 0.5f);
         }
-       base.TakeDamage(damage, damageType);
+        base.TakeDamage(damage, damageType);
     }
-    private void onTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Barrier"))
         {
-            anim.SetTrigger("Turn");
             sr.flipX = !sr.flipX;
         }
-    })
+    }
 }

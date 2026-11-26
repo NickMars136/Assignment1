@@ -124,12 +124,12 @@ TextureImporter:
       name: Bush_Monster-Idle_0
       rect:
         serializedVersion: 2
-        x: 19
+        x: 20
         y: 0
-        width: 51
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 49
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -146,12 +146,12 @@ TextureImporter:
       name: Bush_Monster-Idle_1
       rect:
         serializedVersion: 2
-        x: 109
+        x: 110
         y: 0
-        width: 51
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 49
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -168,12 +168,12 @@ TextureImporter:
       name: Bush_Monster-Idle_2
       rect:
         serializedVersion: 2
-        x: 199
+        x: 200
         y: 0
-        width: 51
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 49
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -190,12 +190,12 @@ TextureImporter:
       name: Bush_Monster-Idle_3
       rect:
         serializedVersion: 2
-        x: 289
+        x: 290
         y: 0
-        width: 51
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 49
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -212,12 +212,12 @@ TextureImporter:
       name: Bush_Monster-Idle_4
       rect:
         serializedVersion: 2
-        x: 379
+        x: 380
         y: 0
-        width: 51
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 49
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -234,12 +234,12 @@ TextureImporter:
       name: Bush_Monster-Idle_5
       rect:
         serializedVersion: 2
-        x: 469
+        x: 470
         y: 0
-        width: 51
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 49
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -256,12 +256,12 @@ TextureImporter:
       name: Bush_Monster-Idle_6
       rect:
         serializedVersion: 2
-        x: 559
+        x: 560
         y: 0
-        width: 51
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 49
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -278,12 +278,12 @@ TextureImporter:
       name: Bush_Monster-Idle_7
       rect:
         serializedVersion: 2
-        x: 649
+        x: 650
         y: 0
-        width: 51
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 49
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -300,7 +300,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: fd2bd596a4db6fa4da50779d201750b8
     internalID: 0
     vertices: []
     indices: 
@@ -308,7 +308,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Bush_Monster-Idle_0: 4244254892401091979
       Bush_Monster-Idle_1: -3302036745981624465
