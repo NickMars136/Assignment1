@@ -1,9 +1,8 @@
 using UnityEngine;
 
 [RequireComponent(typeof(SpriteRenderer))]
-public class TurretTargeting : MonoBehaviour
+public class Target : MonoBehaviour
 {
-    [Header("Target Settings")]
     [SerializeField] private string targetTag = "Player";
     [SerializeField] private float detectionRange = 8.0f;
 
@@ -39,10 +38,7 @@ public class TurretTargeting : MonoBehaviour
 
         if (target != null)
         {
-            float distance = Vector2.Distance(
-                transform.position,
-                target.position
-            );
+            float distance = Vector2.Distance(transform.position, target.position);
 
             if (distance > detectionRange)
             {
@@ -65,7 +61,6 @@ public class TurretTargeting : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, detectionRange);
+        Gizmos.color = Color.red; Gizmos.DrawWireSphere(transform.position, detectionRange);
     }
 }

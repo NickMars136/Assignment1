@@ -42,5 +42,19 @@ public class Shoot : MonoBehaviour
             return;
         }
 
+        Projectile curProjectile;
+
+        if (sr.flipX)
+        {
+            curProjectile = Instantiate(projectilePrefab, spawnPointRight.position, Quaternion.identity);
+            curProjectile.SetVelocity(initShotVelocity);
+            OnShotFired?.Invoke(initShotVelocity); // Notify subscribers that a shot has been fired
+        }
+        else
+        {
+            curProjectile = Instantiate(projectilePrefab, spawnPointLeft.position, Quaternion.identity);
+            curProjectile.SetVelocity(leftShotVelocity);
+            OnShotFired?.Invoke(leftShotVelocity); // Notify subscribers that a shot has been fired
+        }
     }
 }

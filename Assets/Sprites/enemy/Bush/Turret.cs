@@ -5,34 +5,37 @@ using UnityEngine;
 public class Turret : BaseEnemy
 {
     [Header("Shooting Settings")]
-    [SerializeField] private float fireRate = 50f;
+    [SerializeField] private float fireRate = 2.0f;
+    [SerializeField] private float detectionRange = 8.0f;
+    [SerializeField] private string targetTag = "Player";
 
-    private float nextShotTime = 2f;
-    private bool isFiring = false;
+    private float nextShotTime;
 
     private Shoot shoot;
+    private Animator anim;
+    private Transform target;
+    private bool isFiring;
 
     public override void Start()
     {
         shoot = GetComponent<Shoot>();
         anim = GetComponent<Animator>();
 
-        if (fireRate <= 0)
-        {
-            fireRate = 1.0f;
-            Debug.LogWarning("TurretEnemy: Invalid fire rate - setting to 1 second.");
-        }
-
         shoot.OnShotFired += ResetShotTimer;
-    }
-
-    private void ResetShotTimer(Vector2 velocity)
-    {
-        isFiring = false;
     }
 
     private void Update()
     {
+        FindTarget();
+
+        if (target == null)
+        {
+            isFiring = false;
+            anim.ResetTrigger("Fire");
+            anim.Play("Idle", 0, 0f);
+            return;
+        }
+
         if (isFiring || Time.time < nextShotTime)
         {
             return;
@@ -40,12 +43,37 @@ public class Turret : BaseEnemy
 
         AnimatorStateInfo stateInfo = anim.GetCurrentAnimatorStateInfo(0);
 
-        if (stateInfo.IsName("Bush"))
+        if (stateInfo.IsName("Idle"))
         {
             isFiring = true;
             nextShotTime = Time.time + fireRate;
             anim.SetTrigger("Fire");
         }
+    }
+
+    private void FindTarget()
+    {
+        GameObject targetObject = GameObject.FindGameObjectWithTag(targetTag);
+
+        if (targetObject == null)
+        {
+            target = null;
+            return;
+        }
+
+        float distance = Vector2.Distance(
+            transform.position,
+            targetObject.transform.position
+        );
+
+        target = distance <= detectionRange
+            ? targetObject.transform
+            : null;
+    }
+
+    private void ResetShotTimer(Vector2 velocity)
+    {
+        isFiring = false;
     }
 
     private void OnDestroy()
@@ -54,5 +82,10 @@ public class Turret : BaseEnemy
         {
             shoot.OnShotFired -= ResetShotTimer;
         }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red; Gizmos.DrawWireSphere(transform.position, detectionRange);
     }
 }

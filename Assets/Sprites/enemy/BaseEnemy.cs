@@ -1,43 +1,49 @@
+using Unity.VisualScripting;
 using UnityEngine;
-[RequireComponent(typeof(Rigidbody2D), typeof(Animator))]
+
+[RequireComponent(typeof(SpriteRenderer), typeof(Animator))]
 public abstract class BaseEnemy : MonoBehaviour
 {
     protected SpriteRenderer sr;
-    protected Animator anim;
+    protected Animator anima;
     protected int health;
-    [SerializeField] protected int maxHealth;
+
+    [SerializeField] protected int maxHealth = 3;
+
     public virtual void Start()
     {
         sr = GetComponent<SpriteRenderer>();
-        anim = GetComponent<Animator>();
+        anima = GetComponent<Animator>();
 
         if (maxHealth <= 0)
         {
-            Debug.LogWarning("Max health is not set for " + gameObject.name);
             maxHealth = 3;
+            Debug.LogWarning("BaseEnemy: MaxHealth not defined - setting to a default 3");
         }
+
         health = maxHealth;
     }
-    public virtual void TakeDamage(int damage, DamageType damageType = DamageType.defualt)
+
+    public virtual void TakeDamage(int damage, Damagetype damagetype = Damagetype.Default)
     {
         health -= damage;
         if (health <= 0)
         {
-            anim.SetTrigger("Death");
-
-            if (transform.parent != null )
+            anima.SetTrigger("Death");
+            if (transform.parent != null)
             {
                 Destroy(transform.parent.gameObject, 0.5f);
             }
             else
             {
-                Destroy(gameObject, 0.5f);
+                Destroy(gameObject, 0.5f); // Delay the destruction to allow the death animation to play
             }
         }
     }
 }
-
-public enum DamageType
+public enum Damagetype
 {
-  defualt,
+    Default,
+    JumpOn,
+    Magic
 }
